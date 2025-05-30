@@ -4,3 +4,17 @@ Chiedi all’utente la sua email, controlla che sia nella lista di chi può acce
 stampa un messaggio appropriato sull’esito del controllo, utilizzando un ciclo for. 
 Non è consentito usare nessun metodo proprio degli array (come includes, per esempio).
  Si può fare? Certo che si basta ragionare un po’. Nota: Non è necessario provvedere alla validazione delle email*/
+
+ // creo un array con la lista degli invitati 
+
+ const listaInvitati = [
+    "pasquale@gmail.com",
+    "giuliorossi@gmail.com",
+    "lucaverdi@yahoo.it",
+    "simonegrigi@outlook.com",
+    "dehpefforza@libero.it",
+    "franchinoercriminale@hotmail.com"
+];
+
+console.log( "controllo inviti")
+
