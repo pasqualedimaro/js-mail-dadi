@@ -18,3 +18,27 @@ Non è consentito usare nessun metodo proprio degli array (come includes, per es
 
 console.log( "controllo inviti")
 
+//chiedo mail all'utente
+ 
+const emailUtente = prompt("inserisci la tua email per verificare l'invito")
+
+//variabile per vedere se l'email è stata trovata
+
+let emailTrovata = false;
+
+//creo un ciclo per controllare ogni email nella lista
+
+for (let i = 0; i < listaInvitati.length; i++) {
+    if (listaInvitati[i] === emailUtente) {
+        emailTrovata = true;
+        break;
+    }
+}
+
+//stampo il messaggio se ci sono gli invitati o meno
+
+if (emailTrovata){
+    console.log("la tua email è nella lista invitati")
+} else{
+    console.log("accesso negato: la tua mail non è in lista")
+}
