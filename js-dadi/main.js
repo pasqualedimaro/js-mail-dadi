@@ -16,3 +16,13 @@ const dadoComputer = Math.floor(Math.random() * 6) + 1;
 
 console.log(`Utente: ${dadoUtente}`);
 console.log(`Computer: ${dadoComputer}`);
+
+// stampo e confronto i risultati e stabilisco il vincitore
+
+if (dadoUtente > dadoComputer) {
+    console.log("Hai vinto!!");
+} else if (dadoComputer > dadoUtente) {
+    console.log("Hai perso, putroppo ha vinto il compuiter, ritenta!!");
+} else {
+    console.log("Pari, ritenta!!");
+}
