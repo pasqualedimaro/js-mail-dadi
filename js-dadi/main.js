@@ -11,3 +11,8 @@ const dadoUtente = Math.floor(Math.random() * 6) + 1;
 // genero numero randomico da 1 a 6 per il computer
 
 const dadoComputer = Math.floor(Math.random() * 6) + 1;
+
+// stampo i risultati
+
+console.log(`Utente: ${dadoUtente}`);
+console.log(`Computer: ${dadoComputer}`);
